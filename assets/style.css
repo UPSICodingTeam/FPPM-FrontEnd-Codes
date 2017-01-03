@@ -1,0 +1,237 @@
+/*----- ROOT COlOR -----*/
+:root {
+	--blue: #A6D9F7;
+	--green: #84DCCF;
+	--lightgreen: #e5fffb;
+	--grey: #312F2F;
+	--pale: #BCCCE0;
+	--red: #BF98A0;
+}
+/*----- ROOT COlOR -----*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+p,
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+button.radius, .button.radius {
+   	border-radius: 3px;
+}
+
+button.round, .button.round {
+    border-radius: 1000px; 
+}
+
+hr {
+	margin: 0 auto;
+}
+
+.row {
+  	max-width: 60rem;
+}
+
+i {
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.menu {
+	background:-webkit-linear-gradient(rgba(0,0,0,0.47) 0%, rgba(0,0,0,0.47) 100%); 
+}
+
+.menu li a{
+	color: white;
+}
+
+.menu li a:hover{
+	color: var(--pale);
+}
+
+.intro {
+	min-height: 500px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 77%, rgba(0,0,0,0.65) 98%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 98%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	position: relative;
+}
+
+.search {
+	position: relative;
+}
+
+.hero {
+	background-image: url(images/bg-2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-attachment: fixed; */
+}
+
+.dept {
+	margin-top: 20px;
+}
+
+.hz10{
+	padding-top: 10px;
+}
+
+.hz-bottom {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.welcome-text {
+	margin-top: 100px;
+	color: white;
+}
+
+.search-text {
+	color: white;
+}
+
+
+.hz-card {
+	padding: 10px 10px 0px;
+	transition: padding 0.5s, margin 0.5s, border-radius 0.5s, transform 0.5s;
+	position: relative;
+}
+
+.hz-card:hover{
+	transform: scale(1.05);
+}
+
+.hz-announcement {
+	margin-top: 30px;
+	min-height: 400px;
+}
+
+.hz-single-announcement {
+	width: 750px;
+	height: 350px;
+	margin-top: 5px;
+	background-image: url(images/bg-2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hz-single-announcement2 {
+	width: 550px;
+	height: 250px;
+	background-color: red;
+}
+.hz-single-announcement3 {
+	width: 550px;
+	height: 250px;
+	background-color: green;
+}
+
+.hz-button-visit {
+	position: absolute;
+	padding-top: 20px;
+	bottom: 0;
+}
+
+.hz-button-visit a {
+	background-color: rgba(0, 150, 255, 0.71);
+}
+
+.hz-titles {
+	color: #312f2f;
+	border-bottom: 3px dotted black;
+	padding-bottom: 3px;
+	
+}
+
+.hz-quote {
+	font-style: italic;
+}
+
+.hz-quote-author {
+	font-size: small;
+	font-style: italic;
+	color: grey;
+}
+
+.hz-alert-top {
+	background-color: #ff2c00;
+}
+
+.hz-20 {
+	margin-top: 20px;
+}
+
+.hz-grey-desc {
+	color: grey;
+	font-style: italic;
+}
+
+.hz-border {
+	border:4px solid gray;
+}
+
+.hz-gallery-events {
+	position: relative;
+	min-height: 400px;
+}
+
+.hz-gallery-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.hz-social {
+	height: 50px;
+	position: relative;
+}
+
+.hz-twitter {
+	background-color: #0084b4;
+	padding: 15px;
+	color: white;
+}
+
+.hz-facebook {
+	background-color: #3b5998;
+	padding: 15px;
+	color: white;
+}
+
+.hz-facebook span {
+	left: 50%;
+}
+
+.hz-insta {
+	background-color: #e95950;
+	padding: 15px;
+	color: white;
+}
+
+.hz-social-single {
+	position:absolute;
+	margin-left: 10px;
+	bottom: 22px;
+	background-color: rgba(12, 12, 12, 0.62);
+	border-radius: 5px;
+	padding: 2px 5px;
+	font-size: x-small;
+}
+
+.hz-footer {
+	height: 400px;
+	background-color: #2d2d2d;
+}
