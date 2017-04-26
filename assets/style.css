@@ -71,6 +71,20 @@ i {
 	position: relative;
 }
 
+.norintro
+{
+	min-height: 250px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 77%, rgba(0,0,0,0.65) 98%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 98%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	position: relative;
+}
+
+.nor-50 {
+	margin-top: 50px;
+}
+
 .hz-subpages {
 	min-height: 200px;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 77%, rgba(0,0,0,0.65) 98%); /* FF3.6-15 */

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FPPM | Fakulti Pendidikan dan Pembangunan Manusia</title>
+<meta name="description" content="description of this website">
+<meta name="keywords" content="keyword, keyword">
+<meta name="author" content="your name here">
+
+<!--- Link to external stylesheet(s) ---->
+<link rel="stylesheet" href="bower_components/jquery-flipster/dist/jquery.flipster.css">
+<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Varela+Round" rel="stylesheet">
+
+
+<!--- Link to external script(s) ---->
+<script language="javascript" type="text/javascript" src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script src="https://use.fontawesome.com/3b4516d7c3.js"></script>
+
+</head>
+
+<body>
+<section class="hero"> <test></test>
+	<div class="row">
+		<ul class="menu expanded text-center">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Staff</a></li>
+			<li><a href="#">Programmes Offered</a></li>
+			<li><a href="#">Research</a></li>
+			<li class="active"><a href="#">Publication</a></li>
+			<li><a href="#">Consultation</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">FAQs</a></li>
+		</ul>
+	</div>
+	<div class="row hz-subpages text-center">
+			<h3 class="hz-subtitle">PROCEEDING</h3>
+	</div>
+	
+</section> <!-- section hero -->
+
+<section class="hz-publications nor-50">
+	<div class="row">
+		<div class="small-12 columns">
+			
+				<li class="no-bullet">
+					<div class="row hz-card">
+						<div class="medium-2 small-12 columns">
+							<img src="https://dummyimage.com/150x200"/>
+						</div>
+						<div class="medium-10 small-12 columns hz-20">
+							<h4>Title of the proceeding</h4>
+							<small>ISBN/ISSN:XXXXXXXXXXXXXXX</small>
+							<p class="hz-grey-desc">simple desc</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<br>
+
+<footer class="hz-footer">
+</footer>
+<section class="hz-social text-center">
+	<a href="#">
+	<div class="medium-4 small-12 columns hz-twitter hz-card">
+		<i class="fa fa-twitter fa-2x" aria-hidden="true"></i><span class="hz-social-single">22020</span>
+	</div>
+	</a>
+	<a href="#">
+	<div class="medium-4 small-12 columns hz-facebook hz-card">
+		<i class="fa fa-facebook fa-2x" aria-hidden="true"></i><span class="hz-social-single hz-facebook-count">2133</span>
+		<span class="hz-social-count"></span>
+	</div>
+	</a>
+	<a href="#">
+	<div class="medium-4 small-12 columns hz-insta hz-card">
+		<i class="fa fa-instagram fa-2x" aria-hidden="true"></i><span class="hz-social-single">124</span>
+	</div>
+	</a>
+</section>
+<!-- Modal for corporate video -->
+<div class="reveal" id="exampleModal1" data-reveal>
+  <h1>Awesome. I Have It.</h1>
+  <p class="lead">Your couch. It is mine.</p>
+  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<!-- extra JS files to make the site work properly -->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery-flipster/dist/jquery.flipster.min.js"></script>
+<script>
+	$(document).foundation();
+</script>
+<script>
+	$('.hz-flipster').flipster({
+		    itemContainer: 'ul',
+		    itemSelector: 'li',
+		    start: 'center',
+		    fadeIn: 400,
+		    loop:true,
+		    autoplay: 3000,
+		    pauseOnHover: true,
+		    style: 'carousel', //'flat', 'coverflow' or 'carousel' 
+		    spacing: -0.6,
+		    click: true,
+		    keyboard: true,
+		    scrollwheel: true,
+		    touch: true,
+		    nav: false,
+		    buttons: true,
+		    buttonPrev: 'Previous',
+		    buttonNext: 'Next',
+		    onItemSwitch: false
+				});
+</script>
+
+</body>
+</html>
